@@ -1,0 +1,18 @@
+---------Racunarski praktikum 3 - Prva zadaca---------
+---------------------Osoba, Fejs----------------------
+
+Napisite klasu Osoba, koja ima ime i prezime, te privatni konstruktor.
+
+Napisite klasu Fejs koja predstavlja skupinu Osoba. Osobe dodajemo funkcijom dodaj koja kao parametar prima ime i prezime osobe. Mozete pretpostaviti da nece biti dvije osobe s istim imenom i prezimenom. Napravite operator indeksiranja, te omogucite da je klasu moguce koristiti u foreach iskazima, te u sortiranju (sortirati osobe po broju prijatleja, pa po prezimenu, pa po imenu). Napisite i funkciju izbaci kojom izbacujemo odredenu osobu s fejsa.
+
+Operator indeksiranja treba vratiti skup svih osoba kojima je prezime jednako indeksu. Na takvom skupu treba biti moguce koristiti indeksiranje, koje ce kao indeks koristiti ime osobe.
+
+Na klasi osoba napisite funkcije brojPrijatelja, te prijatelji, koja ce vratiti skup svih prijatelja odredene osobe. Napisite i funkciju medjuPrijatelji, koja ce vratiti skup svih meduprijatelja izmedu dvije osobe.
+
+Napisite i operatore += pomocu kojeg sprijateljimo dvije osobe, te -= s kojim ih posvadamo.
+
+Ukoliko je neka osoba ostala bez prijatelja, treba ju izbaciti s fejsa. Ukoliko koristimo izbacenu osobu, treba generirati iznimku.
+
+Sami osmislite klase i napisite main koji demonstrira njihovu upotrebu.
+
+Dodatno: na klasi osoba ispisati osobe sa fejsa koji se prezivaju kao ona a nisu prijatelji sa njome = funk prezimenjaci
